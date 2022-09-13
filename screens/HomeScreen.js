@@ -50,33 +50,14 @@ const HomeScreen = () => {
             </View>
           </TouchableOpacity>
 
-          
-
-          {/* FlashLight */}
-          <TouchableOpacity
-            className="bg-white m-3 shadow w-40"
-            onPress={() => navigation.navigate("Torch")}
-          >
-            <Icon
-              style={{ paddingTop: 20 }}
-              name="magnet-outline"
-              type="ionicon"
-              size={40}
-            />
-            <View className="px-3 pb-4">
-              <Text className="font-bold text-lg pt-2">Flash Light</Text>
-              <Text className="font-bold text-sm pt-2">
-                Appuyez pour utiliser la lampe torche
-              </Text>
-            </View>
-          </TouchableOpacity>
+          {/* Vibration */}
           <TouchableOpacity
             className="bg-white m-3 shadow w-40"
             onPress={() => navigation.navigate("Vibration")}
           >
             <Icon
               style={{ paddingTop: 20 }}
-              name="magnet-outline"
+              name="barcode-outline"
               type="ionicon"
               size={40}
             />
@@ -136,8 +117,6 @@ const HomeScreen = () => {
             paddingBottom: 10,
           }}
         >
-          
-
           {/* AUDIO */}
           <TouchableOpacity
             className="bg-white m-3 shadow w-40"
@@ -158,14 +137,13 @@ const HomeScreen = () => {
             </View>
           </TouchableOpacity>
 
-          
           <TouchableOpacity
             className="bg-white m-3 shadow w-40"
             onPress={() => navigation.navigate("Battery")}
           >
             <Icon
               style={{ paddingTop: 20 }}
-              name="musical-notes-outline"
+              name="battery-full-outline"
               type="ionicon"
               size={40}
             />
@@ -197,7 +175,6 @@ const HomeScreen = () => {
               </Text>
             </View>
           </TouchableOpacity> */}
-
 
           <TouchableOpacity
             className="bg-white m-3 shadow w-40"

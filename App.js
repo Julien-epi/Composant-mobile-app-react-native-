@@ -6,7 +6,6 @@ import AccelerometerScreen from "./screens/AccelerometerScreen";
 import AudioScreen from "./screens/AudioScreen";
 import BarometerScreen from "./screens/BarometerScreen";
 import GyroscopeScreen from "./screens/GyroscopeScreen";
-import TorchScreen from "./screens/TorchScreen";
 import VibrationScreen from "./screens/VibrationScreen";
 import BatteryScreen from "./screens/BatteryScreen";
 import { NavigationContainer } from "@react-navigation/native";
@@ -64,13 +63,6 @@ export default function App() {
                 headerShown: false,
               }}
             />
-             {<Stack.Screen
-              name="Torch"
-              component={TorchScreen}
-              options={{
-                headerShown: false,
-              }}
-            /> }
             <Stack.Screen
               name="Vibration"
               component={VibrationScreen}
